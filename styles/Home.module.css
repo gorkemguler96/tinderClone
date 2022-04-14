@@ -1,0 +1,85 @@
+
+
+.kafa{
+    opacity: .6;
+    z-index: -1;
+    height: 100vh;
+    background-image: url('https://resimyukle.imageupload.workers.dev/3ZSdn4IH_deneme.jpg') ;
+    background-size: cover;
+    /*margin-top: -19%;*/
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    width: 95%;
+    margin-left: 2.4%;
+    z-index: 1;
+    padding: 5px;
+    position: fixed;
+    margin-top: -48%;
+}
+
+.header a {
+    margin-right: 35px;
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.68);
+    z-index: 1;
+}
+
+.header Button {
+    margin-left: auto;
+    color: deeppink;
+    font-weight: 700;
+    border:2px solid deeppink;
+}
+
+.header Button:hover {
+    color: deeppink;
+    font-weight: 700;
+    border:2px solid deeppink;
+}
+
+.header Button:focus {
+    color: deeppink;
+    font-weight: 700;
+    border:2px solid deeppink;
+}
+
+.content {
+    height: 100%;
+    z-index: 1;
+}
+
+.content h1 {
+    font-weight: 700;
+    font-size: 6vw;
+    text-align: center;
+    margin-top: -28%;
+    font-style: oblique;
+    z-index: 1 !important;
+    opacity: 1.4 !important;
+}
+
+.content Button {
+    color: white;
+    font-weight: bold;
+    font-size: 21px;
+    margin-left: 32.8%;
+    border-radius: 40px;
+    width: 33%;
+    height: 70px;
+    background: rgb(205,113,7);
+    background: linear-gradient(49deg, rgba(205, 113, 7, 0.63) 0%, rgba(255, 20, 63, 0.82) 100%);
+}
+
+
+.main {
+    margin-top: 18%;
+    /*display: flex;*/
+    height: 100vh;
+}
+
+ .card {
+    width: 3333px
+}
