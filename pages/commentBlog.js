@@ -47,7 +47,7 @@ export default function CommentBlog(){
                         <h3>Lauren Delarmente</h3>
                     </div>
                     <h1>❝</h1>
-                    <p>Tinder sayesinde hayatımın aşkını buldum ve evlenmeye karar verdik. Birkaç randevuya çıktıktan ve birkaç eğlenceli gece geçirdikten sonra Miranda'ya rastladım. Profilini ve özellikle de son cümlesini okuduktan sonra onu sağa kaydırma fikrine engel olamadım: ‘Hayat boyu yanımda olacak süper bebeğimi arıyorum.’ Yaklaşık bir hafta konuştuktan sonra ilk randevumuza çıktık ve onda özel bir şey olduğunu anladım!</p><p>Tüm bekâr insanlara, özellikle de bizim gibi içe dönük olanlara sesleniyoruz: Konfor alanınızdan çıkmaktan korkmayın. Gerçek bir bağlantıyı yalnızda bu şekilde kurabilirsiniz. Tinder bizi bir araya getirdi ve bunun için sonsuza dek minnettarım. ❤</p>
+                    <p>Tinder sayesinde hayatımın aşkını buldum ve evlenmeye karar verdik. Birkaç randevuya çıktıktan ve birkaç eğlenceli gece geçirdikten sonra Miranda'ya rastladım. Profilini ve özellikle de son cümlesini okuduktan sonra onu sağa kaydırma fikrine engel olamadım:  ❤</p>
                 </div>
                 <div className={styles.deneme}>
                     <div className={styles.title}>

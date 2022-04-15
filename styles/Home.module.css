@@ -9,28 +9,33 @@
     background-attachment:fixed ;
 }
 
+.navbar Button{
+    margin-left: 60px;
+}
+
 .header {
     display: flex;
     align-items: center;
     width: 95%;
-    margin-left: 2.4%;
+    margin-left: 2.6%;
     z-index: 2;
     padding: 5px;
     position: fixed;
-    margin-top: -47%;
     offset-end: 100vh;
     transition: 1s;
 }
 
-.headerNone{
-    display: none;
-}
 
 .header a {
     margin-right: 35px;
     font-size: 25px;
     color: rgba(0, 0, 0, 0.68);
     z-index: 2;
+    text-decoration: none;
+}
+
+.header a:hover {
+   color: hotpink;
 }
 
 .header Button {
@@ -99,7 +104,7 @@
 .carousel {
     cursor: grab;
     overflow: hidden;
-    margin: 13% 7% 0 7% ;
+    margin: 18% 7% 0 7% ;
 }
 
  .item {
@@ -119,7 +124,7 @@
 
  .deneme {
      border: 1px solid rgba(1,1,1,0.1);
-     /*background: rgba(220, 220, 220, 0.08);*/
+     box-shadow: 2px 2px rgba(162, 34, 143, 0.15);
      width: 33%;
      border-radius: 10px;
      max-height: 330px;
@@ -132,7 +137,7 @@
      font-size: 20px;
  }
 .deneme p {
-    padding: 30px 28px 20px 28px;
+    padding: 30px 28px 50px 28px;
     font-size: 15px;
 }
 

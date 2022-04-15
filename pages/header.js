@@ -1,11 +1,11 @@
 import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 import { Button } from 'antd';
-import $ from 'jquery'
-import {useState} from "react";
+import {useEffect} from "react";
 
 
 export default function Header(){
+
     return(
         <div className={styles.header}>
             <Link rel="stylesheet" href="/"><a><img height={90} src="/unblur.jpg" alt="Unblur"/></a></Link>

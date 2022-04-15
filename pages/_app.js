@@ -1,5 +1,6 @@
 import '../styles/globals.css'
 import 'antd/dist/antd.css';
+import "bootstrap/dist/css/bootstrap.css";
 
 
 function MyApp({ Component, pageProps }) {
