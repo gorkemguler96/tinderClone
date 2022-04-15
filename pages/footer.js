@@ -7,14 +7,14 @@ export default function Footer(){
     return(
         <div>
         <div className={styles.footer}>
-            <div>
+            <div className={styles.ayar}>
                 <h2>YASAL</h2>
                 <a>Gizlilik</a>
                 <a>Koşullar</a>
                 <a>Çerez Politikası</a>
                 <a>Fikri Mülkiyet</a>
             </div>
-            <div>
+            <div className={styles.ayar}>
                 <h2>KARİYER</h2>
                 <a>Kariyer Portalı</a>
                 <a>Teknoloji Blogu</a>

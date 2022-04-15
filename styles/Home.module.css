@@ -169,6 +169,10 @@
     width: 90%;
 }
 
+.footer h2 {
+    margin-bottom: 30px;
+}
+
 .cerez{
     margin-left: 5.8em;
     padding: 0 0 0 50px;
@@ -182,7 +186,7 @@
 }
 
 .footer div {
-    margin-right: 12em;
+    margin-right: 6em;
 }
 
 .apple{
@@ -227,10 +231,20 @@
     display: block;
     font-size: 16px;
     padding-bottom: 12px;
+    text-decoration: none;
 }
 
 .footer a:hover{
     color: hotpink;
+}
+
+.footer .ayar a:hover {
+    color:hotpink;
+}
+
+.footer social {
+    width: 100%;
+
 }
 
 .social span{
