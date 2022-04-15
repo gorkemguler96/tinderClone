@@ -1,6 +1,8 @@
 import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 import { Button } from 'antd';
+import $ from 'jquery'
+import {useState} from "react";
 
 
 export default function Header(){
