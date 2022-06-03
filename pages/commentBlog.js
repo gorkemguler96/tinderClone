@@ -26,7 +26,10 @@ export default function CommentBlog(){
                         <h3>Kenneth ve Elliot</h3>
                     </div>
                     <h1>❝</h1>
-                    <p>... kötü bir ayrılık dönemindeydim ve zihnimi biraz uzaklaştırmak için bir Tinder hesabı oluşturdum. Yaklaşık bir hafta süren sohbetten sonra bir şeyler içmek için mahalledeki bir barda buluşmaya karar verdik. Nihayetinde, 27 Haziran 2020'de New Jersey'de 18 kişinin katıldığı bir evlilik töreniyle hayatımızı birleştirmeye karar verdik.</p>
+                    <p>
+                        ... kötü bir ayrılık dönemindeydim ve zihnimi biraz uzaklaştırmak için bir Tinder hesabı oluşturdum. Yaklaşık bir hafta süren sohbetten sonra bir şeyler içmek için mahalledeki bir barda buluşmaya karar verdik. Nihayetinde, 27 Haziran
+                        2020'de New Jersey'de 18 kişinin katıldığı bir evlilik töreniyle hayatımızı birleştirmeye karar verdik.
+                    </p>
                 </div>
                 <div className={styles.deneme}>
                     <div className={styles.title}>
@@ -47,14 +50,18 @@ export default function CommentBlog(){
                         <h3>Lauren Delarmente</h3>
                     </div>
                     <h1>❝</h1>
-                    <p>Tinder sayesinde hayatımın aşkını buldum ve evlenmeye karar verdik. Birkaç randevuya çıktıktan ve birkaç eğlenceli gece geçirdikten sonra Miranda'ya rastladım. Profilini ve özellikle de son cümlesini okuduktan sonra onu sağa kaydırma fikrine engel olamadım:  ❤</p>
+                    <p>Tinder sayesinde hayatımın aşkını buldum ve evlenmeye karar verdik. Birkaç randevuya çıktıktan ve birkaç eğlenceli gece geçirdikten sonra
+                        Miranda'ya rastladım. Profilini ve özellikle de son cümlesini okuduktan sonra onu sağa kaydırma fikrine engel olamadım:  ❤</p>
                 </div>
                 <div className={styles.deneme}>
                     <div className={styles.title}>
                         <h3>Shannon Escobar</h3>
                     </div>
                     <h1>❝</h1>
-                    <p>Bir ilişkimden daha yeni çıkmıştım ve Annie de kadınlarla çıkmaya yeni başlamıştı. Bu yüzden ikimiz de biraz gergindik ve dikkatli davranıyorduk! Birbirimize hızla sırılsıklam aşık olduk, ikimiz de aradığımız kişiyi hemen bulduğumuzu anlamıştık.</p>
+                    <p>Bir ilişkimden daha yeni çıkmıştım ve Annie de kadınlarla çıkmaya yeni başlamıştı.
+                        Bu yüzden ikimiz de biraz gergindik ve dikkatli davranıyorduk! Birbirimize hızla
+                        sırılsıklam aşık olduk, ikimiz de aradığımız kişiyi hemen bulduğumuzu anlamıştık.
+                    </p>
                 </div>
             </motion.div>
         </motion.div>

@@ -2,6 +2,9 @@ import { useEffect, useState } from "react";
 import {Button} from "antd";
 import styles from '../styles/Home.module.css'
 import Link from "next/link";
+import Image from 'next/image'
+import logoImg from '../public/Tinder-Logo.png'
+
 
 export default function Denemeliknav(){
     const [clientWindowHeight, setClientWindowHeight] = useState("");
@@ -42,7 +45,15 @@ export default function Denemeliknav(){
             }}
         >
             <div className={styles.header}>
-                <Link rel="stylesheet" href="/"><a><img height={90} src="/unblur.jpg" alt="Unblur"/></a></Link>
+                <Link rel="stylesheet" href="/">
+                    <a>
+                        <Image
+                            width={150}
+                            height={90}
+                            src={logoImg}
+                            alt="Tinder "/>
+                    </a>
+                </Link>
                 <Link rel="stylesheet" href=""><a>Ürünler</a></Link>
                 <Link rel="stylesheet" href=""><a>Keşfet</a></Link>
                 <Link rel="stylesheet" href=""><a>Güvenlik</a></Link>

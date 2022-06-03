@@ -2,6 +2,9 @@ import styles from '../styles/Home.module.css'
 import Link from 'next/link'
 import {Button} from "antd";
 import { InstagramOutlined,YoutubeOutlined, TwitterOutlined, FacebookOutlined, LinkedinOutlined  } from '@ant-design/icons';
+import applestore2 from '../public/applestore2.png'
+import googlePlay from '../public/google-play-badge.png'
+import Image from "next/image";
 
 export default function Footer(){
     return(
@@ -47,9 +50,9 @@ export default function Footer(){
         </div>
             <div>
                 <div className={styles.cerez}>
-                    <h2>UYGULAMAYI İNDİR</h2>
-                    <a href=""><img className={styles.apple} src="/applestore2.png" alt=""/></a>
-                    <a href=""><img src="/google-play-badge.png" alt=""/></a>
+                    <h2 style={{marginRight:50}}>UYGULAMAYI İNDİR</h2>
+                    <a href=""><Image className={styles.apple} width={220} height={65}  src={applestore2} alt=""/></a>
+                    <a href=""><Image width={250} height={100} src={googlePlay} alt=""/></a>
                 </div>
                 <div className={styles.metinCrz}>
                     <p>Sevgili bekârlar, bize kulak verin: Eğer aşkı arıyorsanız, flört etmek istiyorsanız veya plansız ilişkiler peşindeyseniz, mutlaka Tinder'da olmalısınız. Bugüne kadar 55 milyardan fazla eşleşme sağlayan uygulamamız, kendine en uygun eşleşmeyi bulmak için en doğru yer. Gerçekçi olalım; flörtleşme dünyası son günlerde çok değişti zira artık çoğu insan online platformlarda birbiriyle tanışıyor ve sosyalleşiyor. Dünyanın en popüler ücretsiz arkadaşlık uygulaması olan Tinder sayesinde, tıpkı sizin gibi bekâr ve yeni insanlarla tanışmaya hazır milyonlarca kişi parmaklarınızın ucunda. İster heteroseksüel ister LGBTQIA topluluğuna ait bir birey olun, Tinder tüm potansiyel eşleşmelerizi karşınıza çıkarmak için burada.<br/><br/>
